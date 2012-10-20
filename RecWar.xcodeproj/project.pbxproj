@@ -133,6 +133,7 @@
 		4718EB761632AB640096D30A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4718EB751632AB640096D30A /* AppDelegate.m */; };
 		4718EB791632AB640096D30A /* HelloWorldLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4718EB781632AB640096D30A /* HelloWorldLayer.m */; };
 		4718EB7C1632AB640096D30A /* IntroLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4718EB7B1632AB640096D30A /* IntroLayer.m */; };
+		475F5B1C1632BF460093488D /* SimplePlan.tmx in Resources */ = {isa = PBXBuildFile; fileRef = 475F5B1B1632BF460093488D /* SimplePlan.tmx */; };
 		E9ABF7921632B1D60049BEDF /* Base.bmp in Resources */ = {isa = PBXBuildFile; fileRef = E9ABF77B1632B1D60049BEDF /* Base.bmp */; };
 		E9ABF7931632B1D60049BEDF /* bunker1.bmp in Resources */ = {isa = PBXBuildFile; fileRef = E9ABF77C1632B1D60049BEDF /* bunker1.bmp */; };
 		E9ABF7941632B1D60049BEDF /* BUNKER2.BMP in Resources */ = {isa = PBXBuildFile; fileRef = E9ABF77D1632B1D60049BEDF /* BUNKER2.BMP */; };
@@ -421,6 +422,7 @@
 		4718EB781632AB640096D30A /* HelloWorldLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloWorldLayer.m; sourceTree = "<group>"; };
 		4718EB7A1632AB640096D30A /* IntroLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IntroLayer.h; sourceTree = "<group>"; };
 		4718EB7B1632AB640096D30A /* IntroLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IntroLayer.m; sourceTree = "<group>"; };
+		475F5B1B1632BF460093488D /* SimplePlan.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SimplePlan.tmx; sourceTree = "<group>"; };
 		E9ABF77B1632B1D60049BEDF /* Base.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = Base.bmp; sourceTree = "<group>"; };
 		E9ABF77C1632B1D60049BEDF /* bunker1.bmp */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = bunker1.bmp; sourceTree = "<group>"; };
 		E9ABF77D1632B1D60049BEDF /* BUNKER2.BMP */ = {isa = PBXFileReference; lastKnownFileType = image.bmp; path = BUNKER2.BMP; sourceTree = "<group>"; };
@@ -502,7 +504,6 @@
 		4718E9FC1632AB5D0096D30A /* RecWar */ = {
 			isa = PBXGroup;
 			children = (
-				E9ABF77A1632B1D60049BEDF /* pic */,
 				4718EB741632AB640096D30A /* AppDelegate.h */,
 				4718EB751632AB640096D30A /* AppDelegate.m */,
 				4718EB771632AB640096D30A /* HelloWorldLayer.h */,
@@ -519,6 +520,8 @@
 		4718E9FD1632AB5D0096D30A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				E9ABF77A1632B1D60049BEDF /* pic */,
+				475F5B171632BDFB0093488D /* Maps */,
 				4718E9FE1632AB5D0096D30A /* Default.png */,
 				4718EA001632AB5D0096D30A /* Default-Landscape~ipad.png */,
 				4718EA021632AB5D0096D30A /* fps_images.png */,
@@ -879,6 +882,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		475F5B171632BDFB0093488D /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				475F5B1B1632BF460093488D /* SimplePlan.tmx */,
+			);
+			name = Maps;
+			path = Resources/Maps;
+			sourceTree = "<group>";
+		};
 		E9ABF77A1632B1D60049BEDF /* pic */ = {
 			isa = PBXGroup;
 			children = (
@@ -996,6 +1008,7 @@
 				E9ABF7A61632B1D60049BEDF /* water_corner.bmp in Resources */,
 				E9ABF7A71632B1D60049BEDF /* water_middle.bmp in Resources */,
 				E9ABF7A81632B1D60049BEDF /* water_side.bmp in Resources */,
+				475F5B1C1632BF460093488D /* SimplePlan.tmx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
